@@ -1,4 +1,4 @@
-#Biên dịch từ lient-side và server-side : Tất cả ưu điểm và nhược điểm của chúng 
+# Biên dịch từ lient-side và server-side : Tất cả ưu điểm và nhược điểm của chúng 
 * Client-side vs. server-side rendering: why it’s not all black and white
 * Viết bởi Juan Vega là kỹ sư phần mềm là người viết ra trang web  https://vuereactor.com và https://juanmvega.com
 * Dịch bởi Nguyễn Xuân Quang
@@ -15,7 +15,7 @@ Vì vậy, nó làm cho ta cảm thấy rằng server-side rendering đang bắt
 
 Vậy phương pháp nào là lựa chọn tốt hơn? Như với hầu hết mọi thứ trong phát triển, nó thực sự phụ thuộc vào những gì bạn đang lập kế hoạch làm với trang web của bạn. Bạn cần phải hiểu những ưu và khuyết điểm, sau đó quyết định cho mình những tuyến đường nào là tốt nhất cho bạn.
 
-####Cách làm việc của server-side rendering
+#### Cách làm việc của server-side rendering
 
 Server-side rendering là phương pháp phổ biến nhất để hiển thị thông tin lên màn hình. Nó hoạt động bằng cách chuyển đổi các tệp HTML trong máy chủ thành thông tin có thể sử dụng được cho trình duyệt.
 
