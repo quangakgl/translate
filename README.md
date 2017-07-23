@@ -5,7 +5,7 @@
 * Nguồn https://medium.freecodecamp.org/what-exactly-is-client-side-rendering-and-hows-it-different-from-server-side-rendering-bd5c786b340d
 
 ### Bài dịch
-Kể từ lúc bắt đầu,phương pháp thông thường để nhận HTML của bạn lên màn hình bằng cách sử dụng rending từ phía sever-side. Đó là cách duy nhất. Bạn đã tải các trang .html trên máy chủ, sau đó máy chủ của bạn đã chuyển và chuyển chúng thành các tài liệu hữu ích trên trình duyệt của bạn.
+Kể từ lúc bắt đầu,phương pháp thông thường để nhận HTML của bạn lên màn hình bằng cách sử dụng rending từ phía sever-side. Đó là cách duy nhất. Bạn đã tải các trang .html trên sever, sau đó sever của bạn đã chuyển và chuyển chúng thành các tài liệu hữu ích trên trình duyệt của bạn.
 
 Phản ánh phía máy chủ đã làm việc tuyệt vời vào thời điểm đó, vì hầu hết các trang web chủ yếu chỉ để hiển thị các hình ảnh và văn bản tĩnh, với một ít tương tác.
 
