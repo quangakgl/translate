@@ -21,15 +21,15 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-2728">
-                <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
                 <folding>
-                  <marker date="1500838808566" expanded="true" signature="7187:7291" ph="{&quot;title&quot;: &quot;My Website&quot;...}" />
-                  <marker date="1500838808566" expanded="true" signature="7319:7909" ph="{&quot;template&quot;: `&#10;        &lt;div&gt;&#10;        &lt;h1&gt;{{title}}&lt;/h1&gt;&#10;        &lt;p id=&quot;moreContent&quot;&gt;{{message}}&lt;/p&gt;&#10;        &lt;a v-on:click='newContent'&gt;Link&lt;/a&gt;&#10;        &lt;/div&gt;&#10;        `...}" />
-                  <marker date="1500838808566" expanded="true" signature="7529:7563" ph="{...}" />
-                  <marker date="1500838808566" expanded="true" signature="7581:7901" ph="{...}" />
-                  <marker date="1500838808566" expanded="true" signature="7615:7891" ph="{...}" />
-                  <marker date="1500838808566" expanded="true" signature="7925:7955" ph="{&quot;el&quot;: '##root'...}" />
+                  <marker date="1500839273845" expanded="true" signature="7195:7299" ph="{&quot;title&quot;: &quot;My Website&quot;...}" />
+                  <marker date="1500839273845" expanded="true" signature="7327:7917" ph="{&quot;template&quot;: `&#10;        &lt;div&gt;&#10;        &lt;h1&gt;{{title}}&lt;/h1&gt;&#10;        &lt;p id=&quot;moreContent&quot;&gt;{{message}}&lt;/p&gt;&#10;        &lt;a v-on:click='newContent'&gt;Link&lt;/a&gt;&#10;        &lt;/div&gt;&#10;        `...}" />
+                  <marker date="1500839273845" expanded="true" signature="7537:7571" ph="{...}" />
+                  <marker date="1500839273845" expanded="true" signature="7589:7909" ph="{...}" />
+                  <marker date="1500839273845" expanded="true" signature="7623:7899" ph="{...}" />
+                  <marker date="1500839273845" expanded="true" signature="7933:7963" ph="{&quot;el&quot;: '##root'...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -119,12 +119,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1500837821575</updated>
-      <workItem from="1500837822833" duration="987000" />
+      <workItem from="1500837822833" duration="1450000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="987000" />
+    <option name="totallyTimeSpent" value="1450000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1604" height="867" extended-state="0" />
@@ -165,15 +165,15 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-2728">
-            <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
             <folding>
-              <marker date="1500838808566" expanded="true" signature="7187:7291" ph="{&quot;title&quot;: &quot;My Website&quot;...}" />
-              <marker date="1500838808566" expanded="true" signature="7319:7909" ph="{&quot;template&quot;: `&#10;        &lt;div&gt;&#10;        &lt;h1&gt;{{title}}&lt;/h1&gt;&#10;        &lt;p id=&quot;moreContent&quot;&gt;{{message}}&lt;/p&gt;&#10;        &lt;a v-on:click='newContent'&gt;Link&lt;/a&gt;&#10;        &lt;/div&gt;&#10;        `...}" />
-              <marker date="1500838808566" expanded="true" signature="7529:7563" ph="{...}" />
-              <marker date="1500838808566" expanded="true" signature="7581:7901" ph="{...}" />
-              <marker date="1500838808566" expanded="true" signature="7615:7891" ph="{...}" />
-              <marker date="1500838808566" expanded="true" signature="7925:7955" ph="{&quot;el&quot;: '##root'...}" />
+              <marker date="1500839273845" expanded="true" signature="7195:7299" ph="{&quot;title&quot;: &quot;My Website&quot;...}" />
+              <marker date="1500839273845" expanded="true" signature="7327:7917" ph="{&quot;template&quot;: `&#10;        &lt;div&gt;&#10;        &lt;h1&gt;{{title}}&lt;/h1&gt;&#10;        &lt;p id=&quot;moreContent&quot;&gt;{{message}}&lt;/p&gt;&#10;        &lt;a v-on:click='newContent'&gt;Link&lt;/a&gt;&#10;        &lt;/div&gt;&#10;        `...}" />
+              <marker date="1500839273845" expanded="true" signature="7537:7571" ph="{...}" />
+              <marker date="1500839273845" expanded="true" signature="7589:7909" ph="{...}" />
+              <marker date="1500839273845" expanded="true" signature="7623:7899" ph="{...}" />
+              <marker date="1500839273845" expanded="true" signature="7933:7963" ph="{&quot;el&quot;: '##root'...}" />
             </folding>
           </first_editor>
           <second_editor />

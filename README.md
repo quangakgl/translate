@@ -1,4 +1,4 @@
-# Biên dịch từ lient-side và server-side : Tất cả ưu điểm và nhược điểm của chúng 
+# Client-side rendering và server-side rendering : Tất cả ưu điểm và nhược điểm của chúng 
 * Client-side vs. server-side rendering: why it’s not all black and white
 * Viết bởi Juan Vega là kỹ sư phần mềm là người viết ra trang web  https://vuereactor.com và https://juanmvega.com
 * Dịch bởi Nguyễn Xuân Quang
