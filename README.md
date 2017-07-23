@@ -160,6 +160,7 @@ Nên đó là điều bạn có.  Đó là những khác biệt chính giữa se
 
 Dưới đây là những ưu và khuyết điểm của từng phương pháp:
 
+
 ####Ưu diểm của phía sever :
 
  #####1. Các công cụ tìm kiếm có thể thu thập dữ liệu trang web để SEO tốt hơn.
