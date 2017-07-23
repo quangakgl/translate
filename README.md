@@ -52,6 +52,7 @@ Nếu bạn gõ địa chỉ của trang web ví dụ vào URL của trình duy�
 Bây giờ, giả sử rằng bạn muốn nhấp vào liên kết từ trang được hiển thị có chứa mã sau đây.
 
 ```javascript
+
     <!DOCTYPE html>
     <html>
       <head>
@@ -64,6 +65,7 @@ Bây giờ, giả sử rằng bạn muốn nhấp vào liên kết từ trang đ
         <p>This is some more content from the other.html</p>
       </body>
     </html> 
+    
 ```
 
 Sự khác biệt duy nhất giữa trang trước và trang này là trang này không có liên kết và thay vào đó có một đoạn văn khác. Logic sẽ chỉ ra rằng chỉ có nội dung mới nên được trả lại và phần còn lại nên được để lại một mình. Ôi không, đó không phải là cách mà server-side rendering làm việc. Điều thực sự sẽ xảy ra là toàn bộ trang mới sẽ được hiển thị, chứ không chỉ nội dung mới.
@@ -76,11 +78,12 @@ Về lợi ích, sever-side rending rất tốt cho SEO. Nội dung của bạn 
 
 Khi các nhà lập trình viên nói về client-side rendering, họ đang nói về việc hiển thị nội dung trong trình duyệt bằng cách sử dụng JavaScript. Vì vậy, thay vì nhận được tất cả nội dung từ chính tài liệu HTML, bạn sẽ nhận được một tài liệu khung HTML với file JavaScript sẽ hiển thị phần còn lại của trang bằng trình duyệt.
 
-Đây là một cách tiếp cận tương đối mới đối với việc hiển thị các trang web, và nó không thực sự trở nên phổ biến cho đến khi các thư viện JavaScript bắt đầu kết hợp nó vào phong cách phát triển của họ. Một số ví dụ nổi bật là Vue.js và React.js,<a href='https://medium.freecodecamp.org/reacts-jsx-vs-vue-s-templates-a-showdown-on-the-front-end-b00a70470409'> mà tác giả đã viết về nó .
+Đây là một cách tiếp cận tương đối mới đối với việc hiển thị các trang web, và nó không thực sự trở nên phổ biến cho đến khi các thư viện JavaScript bắt đầu kết hợp nó vào phong cách phát triển của họ. Một số ví dụ nổi bật là Vue.js và React.js,<a href='https://medium.freecodecamp.org/reacts-jsx-vs-vue-s-templates-a-showdown-on-the-front-end-b00a70470409'> mà tác giả đã viết về nó .</a>
 
 Quay lại trang trước, example.testsite.com , giả sử rằng bây giờ bạn có tệp index.html với các dòng mã sau.
 
 ```javascript
+
     <!DOCTYPE html>
     <html>
     <head>
@@ -94,7 +97,8 @@ Quay lại trang trước, example.testsite.com , giả sử rằng bây giờ b
       <script src="https://vuejs.org"type="text/javascript"></script>
       <script src="location/of/app.js"type="text/javascript"></script>
     </body>
-    </html> 
+    </html>
+     
 ```
 
 Bạn có thể thấy ngay rằng có một số thay đổi lớn trong cách index.hmtl hoạt động khi render bằng cách sử dụng client.
@@ -109,6 +113,7 @@ Nếu bạn muốn yêu cầu URL chỉ với mã ở trên, bạn sẽ nhận �
 Để khắc phục điều đó, bạn sẽ đặt các dòng mã sau vào tệp app.js.
 
 ```javascript
+
     var data = {
             title:"My Website",
             message:"This is an example of my new website"
@@ -137,6 +142,7 @@ Nếu bạn muốn yêu cầu URL chỉ với mã ở trên, bạn sẽ nhận �
       new Vue({
         el: '#root',
       });
+
 ```
 
 Bây giờ nếu bạn truy cập URL, bạn sẽ thấy cùng một nội dung như bạn đã làm ví dụ phía sever. Sự khác biệt chính là nếu bạn nhấp vào liên kết trang để tải nhiều nội dung hơn, trình duyệt sẽ không thực hiện một yêu cầu khác cho sever. Bạn đang hiển thị các mục bằng trình duyệt, do đó thay vào đó sẽ sử dụng JavaScript để tải nội dung mới và Vue.js sẽ đảm bảo chỉ có nội dung mới được hiển thị. Khung HTML sẽ được giữ lại.
@@ -155,23 +161,27 @@ Nên đó là điều bạn có.  Đó là những khác biệt chính giữa se
 Dưới đây là những ưu và khuyết điểm của từng phương pháp:
 
 #####Ưu diểm của phía sever :
+
  #####1. Các công cụ tìm kiếm có thể thu thập dữ liệu trang web để SEO tốt hơn.
  #####2. Tải trang ban đầu nhanh hơn.
  #####3. Tuyệt vời cho các trang web tĩnh.
 
 ##### Nhược điểm của sever :
+
  #####1. Truy vấn sever thường xuyên.
  #####2. Hiển thị trang chậm.
  #####3. Tải lại toàn bộ trang.
  #####4. Tương tác web không được tốt.
  
 ##### Ưu điểm của client :
+
  ##### 1. Tương tác nhiều trang web
  ##### 2. Hiển thị trang web nhanh sau khi tải lần đầu.
  ##### 3. Tuyệt vời cho các ứng dụng web.
  ##### 4. Chọn thư viện JavaScript mạnh mẽ.
  
 #####   Nhược điểm của client :
+
  #####  1. SEO thấp nếu không thực hiện chính xác.
  #####  2. Tải lần đầu có thể cần nhiều thời gian hơn.
  #####  3. Trong hầu hết các trường hợp, yêu cầu một thư viện bên ngoài.
@@ -179,7 +189,7 @@ Dưới đây là những ưu và khuyết điểm của từng phương pháp:
  
  Nếu bạn muốn tìm hiểu thêm về Vue.js, hãy kiểm tra VueReactor.com. Bạn cũng có thể truy cập juanmvega.com để cập nhật với những câu chuyện mới nhất của tác giả.
  
- 
+THE END
 
 
 
