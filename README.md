@@ -161,23 +161,23 @@ Nên đó là điều bạn có.  Đó là những khác biệt chính giữa se
 Dưới đây là những ưu và khuyết điểm của từng phương pháp:
 
 
-####Ưu diểm của phía sever :
+#### Ưu diểm của phía sever :
 
- #####1. Các công cụ tìm kiếm có thể thu thập dữ liệu trang web để SEO tốt hơn.
+ ##### 1. Các công cụ tìm kiếm có thể thu thập dữ liệu trang web để SEO tốt hơn.
  
- #####2. Tải trang ban đầu nhanh hơn.
+ ##### 2. Tải trang ban đầu nhanh hơn.
  
- #####3. Tuyệt vời cho các trang web tĩnh.
+ ##### 3. Tuyệt vời cho các trang web tĩnh.
 
 #### Nhược điểm của sever :
 
- #####1. Truy vấn sever thường xuyên.
+ ##### 1. Truy vấn sever thường xuyên.
  
- #####2. Hiển thị trang chậm.
+ ##### 2. Hiển thị trang chậm.
  
- #####3. Tải lại toàn bộ trang.
+ ##### 3. Tải lại toàn bộ trang.
  
- #####4. Tương tác web không được tốt.
+ ##### 4. Tương tác web không được tốt.
  
 #### Ưu điểm của client :
 
