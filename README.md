@@ -163,39 +163,39 @@ Dưới đây là những ưu và khuyết điểm của từng phương pháp:
 
 #### Ưu diểm của phía sever :
 
- ##### 1. Các công cụ tìm kiếm có thể thu thập dữ liệu trang web để SEO tốt hơn.
+1. Các công cụ tìm kiếm có thể thu thập dữ liệu trang web để SEO tốt hơn.
  
- ##### 2. Tải trang ban đầu nhanh hơn.
+2. Tải trang ban đầu nhanh hơn.
  
- ##### 3. Tuyệt vời cho các trang web tĩnh.
+3. Tuyệt vời cho các trang web tĩnh.
 
 #### Nhược điểm của sever :
 
- ##### 1. Truy vấn sever thường xuyên.
+1. Truy vấn sever thường xuyên.
  
- ##### 2. Hiển thị trang chậm.
+2. Hiển thị trang chậm.
  
- ##### 3. Tải lại toàn bộ trang.
+3. Tải lại toàn bộ trang.
  
- ##### 4. Tương tác web không được tốt.
+4. Tương tác web không được tốt.
  
 #### Ưu điểm của client :
 
- ##### 1. Tương tác nhiều trang web
+1. Tương tác nhiều trang web
  
- ##### 2. Hiển thị trang web nhanh sau khi tải lần đầu.
+2. Hiển thị trang web nhanh sau khi tải lần đầu.
  
- ##### 3. Tuyệt vời cho các ứng dụng web.
+3. Tuyệt vời cho các ứng dụng web.
  
- ##### 4. Chọn thư viện JavaScript mạnh mẽ.
+4. Chọn thư viện JavaScript mạnh mẽ.
  
 ####   Nhược điểm của client :
 
- #####  1. SEO thấp nếu không thực hiện chính xác.
+1. SEO thấp nếu không thực hiện chính xác.
  
- #####  2. Tải lần đầu có thể cần nhiều thời gian hơn.
+2. Tải lần đầu có thể cần nhiều thời gian hơn.
  
- #####  3. Trong hầu hết các trường hợp, yêu cầu một thư viện bên ngoài.
+3. Trong hầu hết các trường hợp, yêu cầu một thư viện bên ngoài.
  
  
  Nếu bạn muốn tìm hiểu thêm về Vue.js, hãy kiểm tra VueReactor.com. Bạn cũng có thể truy cập juanmvega.com để cập nhật với những câu chuyện mới nhất của tác giả.
