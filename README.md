@@ -198,7 +198,7 @@ Dưới đây là những ưu và khuyết điểm của từng phương pháp:
 3. Trong hầu hết các trường hợp, yêu cầu một thư viện bên ngoài.
  
  
- Nếu bạn muốn tìm hiểu thêm về Vue.js, hãy kiểm tra VueReactor.com. Bạn cũng có thể truy cập juanmvega.com để cập nhật với những câu chuyện mới nhất của tác giả.
+ Nếu bạn muốn tìm hiểu thêm về Vue.js, hãy kiểm tra https://juanmvega.com/ Bạn cũng có thể truy cập https://vuereactor.com/ để cập nhật với những câu chuyện mới nhất của tác giả.
  
 THE END
 
